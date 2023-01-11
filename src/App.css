@@ -1,0 +1,239 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.h1{
+  text-align: center;
+}
+
+.App {
+  background-image: url('./Forms/project-5.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+  min-height: 100vh;
+ 
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  }
+
+.loginh{
+  border: 3px solid #ccc;
+  margin-left: 20px;
+}
+label{
+  font-weight: bold;
+}
+
+.header{
+  background-image: url('./Forms/project-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  color: white;
+}
+
+
+.app-head{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+
+
+.nav-link{
+  font-size: 18px;
+  margin: 5px;
+  text-align: center;
+}
+.link{
+  font-size: 18px;
+  margin: 5px;
+  text-align: center;
+}
+.passr{
+  font-size: 18px;
+  margin: 5px;
+  text-align: center;
+  color: #000;
+}
+
+.create{
+  color: black;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  
+
+
+}
+.created{
+  color: black;
+  background-color: #fff;
+  width: 400px;
+  margin:50px ;
+  border: 2px solid #ccc;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0, 0.5);
+  
+}
+.h3{
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.p{
+  text-align: center;
+}
+.ppp{
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 160px;
+  /* margin-bottom: 30px; */
+  /* border-radius: 50%; */
+}
+
+.heading{
+  background-image: url('./Forms/project-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.crt{
+  color: #000;
+  width: 100%;
+  padding: 40px;
+  box-shadow:0px 4px 4px 4px rgba(0,0,0, 0.5);
+  background-color: #fff;
+  margin-left: 40px;
+}
+.h2{
+  padding-bottom: 30px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.home-page{
+  background-image: url('./Forms/project-7.jpg');
+  background-position:right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  margin-bottom:60px ;
+  justify-content: space-between;
+}
+
+.img{
+  height: 100px;
+  margin-bottom: 30px;
+  width: 100px;
+  align-self: center;
+}
+
+.nice-write{
+  font-size: 80px;
+  color: 	rgb(36, 3, 3);
+  /* color: #802bb1; */
+  margin-bottom: 150px;
+  font-weight: bolder;
+
+}
+.nice-write span{
+  color:goldenrod;
+}
+
+.animate {
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 1s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+      -webkit-transform: scale(0);
+  }
+
+  to {
+      -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+      transform: scale(0);
+  }
+
+  to {
+      transform: scale(1);
+  }
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid white;
+}
+
+.nice{
+  margin: 0;
+  color: 	rgb(36, 3, 3);
+  font-weight: bolder;
+  padding-left: 10px;
+}
+.nice span{
+  color: goldenrod;
+}
+.text{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.image{
+  margin-left: 20px;
+  height: 400px;
+}
+
+
